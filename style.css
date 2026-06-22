@@ -1,0 +1,146 @@
+body {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #38bdf8;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #4ade80;
+}
+
+section {
+    background-color: #1e293b;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4ade80;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+li strong {
+    color: #38bdf8;
+}
+
+section a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.project-card {
+    border-left: 4px solid #38bdf8;
+}
+
+.project-description {
+    margin-bottom: 20px;
+    color: #94a3b8;
+}
+
+.project-links {
+    display: flex;
+    gap: 20px;
+}
+
+.link-details {
+    color: #4ade80;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-details:hover {
+    text-decoration: underline;
+}
+
+.link-github {
+    color: #38bdf8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-github:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.project-img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #38bdf8;
+    margin-bottom: 20px;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.btn-video {
+    color: #ffffff;
+    background-color: #ef4444;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
