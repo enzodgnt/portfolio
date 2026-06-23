@@ -17,24 +17,25 @@
 
     <main>
         <section class="project-detail">
-            <h2>Projet 2 : Jeu de Dames</h2>
+            <h2>Projet 1 : Multigame</h2>
             
-            <div class="project-media">
-                <img src="images/multigame.png" alt="Capture d'écran du multigame" class="project-img">
-            </div>
+            <img src="images/multigame.png" alt="Capture d'écran du multigame" class="project-img2">
 
             <h3>Description détaillée</h3>
-            <p class="project-description">Ce projet consiste en une application console en C++ qui centralise quatre jeux classiques développés de A à Z. L'application propose un menu principal interactif permettant de choisir et de lancer 
-                instantanément le jeu de son choix :</p>
+            <p class="project-description">Ce projet consiste en une application console en C++ qui centralise quatre jeux classiques développés de A à Z. L'application propose un menu principal interactif permettant de choisir 
+                et de lancer instantanément le jeu de son choix :</p>
                 <ul>
-                    <li class="project-description"><strong>Blackjack :</strong> Un jeu de cartes contre la banque avec gestion des mises, du score et des règles de distribution.</li>
-                    <li class="project-description"><strong>Machine à sous :</strong> Un mini-jeu de casino basé sur le hasard, simulant des rouleaux aléatoires et un système de jetons.</li>
+                    <li class="project-description"><strong>Machine à sous :</strong> Un mini-jeu de casino basé sur le hasard, simulant des rouleaux aléatoires, des multiplicateurs de gains et un système de jetons virtuels.</li>
+                    <li class="project-description"><strong>Roulette :</strong> Une simulation du célèbre jeu de casino où le joueur peut miser sur un numéro plein, une couleur (Rouge/Noir), ou la parité (Pair/Impair) avant 
+                        le lancer de la bille.</li>
                     <li class="project-description"><strong>Snake :</strong> Le célèbre jeu du serpent où l'objectif est de grandir en attrapant de la nourriture sans percuter les murs ou sa propre queue.</li>
                     <li class="project-description"><strong>Mastermind :</strong> Un jeu de réflexion et de logique où le joueur doit décoder une combinaison secrète de couleurs en un nombre de tentatives limité.</li>
+                    <li class="project-description"><strong>Blackjack :</strong> Un jeu de cartes contre la banque avec gestion des mises, du score et des règles de distribution.</li>
                 </ul>
             <h3>Manipulations</h3>
             <p class="project-description">Pour lancer l'application console, clonez le dépôt, dézippez le, puis allez dans ce dossier dézippé et avec un clic droit dans le dossier et faites "Ouvrir dans le Terminal".
-                Par la suite, entrez cette commande <code>./multigame</code>, le code s'exécute et vous aurez le choix de choisir le jeu, après avoir choisi le jeu que vous voulez, vous pourrez y jouer.
+                Par la suite, entrez cette commande : <code>g++ main.cpp blackjack.cpp Machine_a_sous.cpp mastermind.cpp Roulette.cpp Snake_3.cpp -o jeux</code>, cette commande permet de compiler tous les fichiers en un 
+                exécutable nommé "jeux", puis faites <code>./multigame</code>, le code s'exécute et vous aurez le choix de choisir le jeu, après avoir choisi le jeu que vous voulez, vous pourrez y jouer librement.
             </p>
             
             <div class="project-buttons">

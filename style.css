@@ -144,3 +144,19 @@ section a:hover {
     border-radius: 4px;
 }
 
+.project-img2 {
+    width: 50%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #38bdf8;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+code {
+    background-color: #0f172a;
+    color: #4ade80;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
